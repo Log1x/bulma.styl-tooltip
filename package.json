@@ -1,0 +1,26 @@
+{
+  "name": "bulma.styl-tooltip",
+  "version": "1.0.0",
+  "homepage": "http://github.com/Log1x/bulma.styl-tooltip",
+  "author": "Brandon Nifong <brandon@tendency.me> (https://log1x.com)",
+  "contributors": [
+    "Wikiki (https://github.com/Wikiki)"
+  ],
+  "description": "Tooltip extension for Bulma.styl",
+  "main": "tooltip.styl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Log1x/bulma.styl-tooltip.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "stylus",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/Log1x/bulma.styl-tooltip/issues"
+  }
+}
