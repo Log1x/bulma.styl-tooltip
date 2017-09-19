@@ -1,28 +1,36 @@
-# bulma.styl-tooltip
-This is a fork for the Bulma extension to display tooltip on desktop layout for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl).
+# Bulma.styl Tooltip
 
-You can easily decide on which side tooltip will be displayed: top, right, bottom or left.
+[![npm](https://img.shields.io/npm/v/bulma.styl-tooltip.svg)](https://www.npmjs.com/package/bulma.styl-tooltip)
+[![npm](https://img.shields.io/npm/dm/bulma.styl-tooltip.svg)](https://www.npmjs.com/package/bulma.styl-tooltip)
 
-Preview
----
-![Tooltip extension](https://img15.hostingpics.net/pics/824111ScreenShot20170719at120642.png)
+This is a 1:1 Stylus translation of the [bulma-tooltip](https://github.com/Wikiki/bulma-tooltip) extension by [Wikiki](https://github.com/Wikiki).
 
+This is generally for use with [Bulma.styl](https://github.com/log1x/bulma.styl). 
 
-Usage
----
+## Installation 
+
+### Install from npm
+
+```sh
+$ npm install bulma.styl-tooltip
+```
+
+### Install from Yarn 
+
+```sh
+$ yarn add bulma.styl-tooltip
+```
+
+## Usage 
 
 ```
-<div class="columns text-center">
-  <div class="column">
-    <button class="button is-primary tooltip" data-tooltip="Tooltip Text">top tooltip</button>
-  </div>
-  <div class="column">
-    <button class="button is-primary tooltip tooltip-right" data-tooltip="Tooltip Text">right tooltip</button>
-  </div>
-  <div class="column">
-    <button class="button is-primary tooltip tooltip-bottom" data-tooltip="Tooltip Text">bottom tooltip</button>
-  </div>
-  <div class="column">
-    <button class="button is-primary tooltip tooltip-left" data-tooltip="Tooltip Text">left tooltip</button>
-  </div>
-</div>
+@require "~bulma.styl-tooltip/tooltip"
+```
+
+## Documentation 
+
+Documentation can be found at Wikiki's [extension documentation](https://wikiki.github.io/bulma-extensions/).
+
+## License
+
+Released under the MIT license.
